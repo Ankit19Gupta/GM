@@ -364,7 +364,7 @@ body {
   filter: drop-shadow(0 0 3px var(--color-heart));
   animation: scaleHeart 1s infinite linear;
 }
-.cricle .fa-heart {
+.cricle .fa-star {
   position: absolute;
   transform: scale(0.85);
 }
@@ -561,7 +561,7 @@ body {
 }
 .title__letter .fa-solid {
   margin-left: 5px;
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 .letter__border .letter .content__letter {
   position: relative;

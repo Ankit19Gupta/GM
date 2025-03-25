@@ -116,7 +116,7 @@
               <span style="--i: 14">y</span>
               <span style="--i: 15">-</span>
             </div>
-            <i class="fa-solid fa-heart"></i>
+            <i class="fa-solid fa-star" style="color: red"></i>
           </div>
         </div>
       </div>
@@ -213,7 +213,7 @@
   <script>
     let datetxt = "26 March 2002";
     let datatxtletter =
-      "Tanya, today is all about celebrating you! May your birthday be filled with smiles, love, and everything that makes your heart happy. Cheers to another amazing year ahead! 🥳🎂💫";
+      "Happy Birthday! May your birthday mark the beginning of another year of incredible success and happiness! Keep chasing your dreams and turning them into reality. Wishing you a fantastic day and an even brighter future ahead! 🎂🥳💫";
     let titleLetter = "To you";
     let charArrDate = datetxt.split("");
     let charArrDateLetter = datatxtletter.split("");
@@ -253,7 +253,8 @@
             document.querySelector(".title__letter").textContent +=
               charArrTitle[currentIndexTitle];
             let i = document.createElement("i");
-            i.className = "fa-solid fa-heart";
+            i.className = "fa-solid fa-star";
+            i.style.color = "red";
             document.querySelector(".title__letter").appendChild(i);
             currentIndexTitle++;
           } else {
